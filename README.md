@@ -1,9 +1,20 @@
 # Building-a-Data-Warehouse
-Building an SQL data warehouse and integrating data from different sources into the warehouse using SSIS data pipelines. 
 
 
+## Table of Contents
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#source">Data Sources</a></li>
+<li><a href="#parta">Part 1: Implementing a SQL Data Warehouse</a></li>
+<li><a href="#partb">Part 2: Loading Data From Various Sources Into Data Warehouse</a></li>
+</ul>
+
+<a id='intro'></a>
+## Introduction
+In this project I built an SQL data warehouse and integrating data from different sources into the warehouse using SSIS data pipelines. 
 
 
+<a id='source'></a>
 ### Data Source:
 - SQL Database
 - CSV File:[FactSalesTable.csv](https://github.com/user-attachments/files/17593089/FactSalesTable.csv)
@@ -12,7 +23,7 @@ Building an SQL data warehouse and integrating data from different sources into 
 
 
 
-
+<a id='parta'></a>
 ## Part 1: Implementing a SQL Data Warehouse:
 Aggregating and managing large volumes of customer data for analytical purposes.
 
@@ -61,7 +72,7 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 
 
 
-
+<a id='partb'></a>
 ## Part 2: Loading Data From Various Sources Into Data Warehouse:
 
 
