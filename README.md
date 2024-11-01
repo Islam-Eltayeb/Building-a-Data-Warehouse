@@ -54,7 +54,7 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 
 
 ### Step 7: Identify Primary keys in dimension tables which foreign keys in fact table
-![image](https://github.com/user-attachments/assets/98a8040f-3e39-4f68-910d-6a21615e3033)
+
 
 
 
@@ -66,6 +66,8 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 ![image](https://github.com/user-attachments/assets/9f9c1781-856b-41e7-a0de-1d720e88b332)
 ![image](https://github.com/user-attachments/assets/89b81a8f-83f7-4954-8d21-724f3f0daccd)
 
+### Step 10: Set The Relationships Between Tables
+![image](https://github.com/user-attachments/assets/98a8040f-3e39-4f68-910d-6a21615e3033)
 
 
 
@@ -75,14 +77,14 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 ## Part 2: Loading Data From Various Sources Into Data Warehouse:
 
 
-### Step 10: Populate Customer and product Dimension Tables (Using the Import and Export Wizard Tool):
+### Step 11: Populate Customer and product Dimension Tables (Using the Import and Export Wizard Tool):
 #### Choosing source and destination databases and tables, mapping columns, and finishing the import process.
 ![image](https://github.com/user-attachments/assets/8be65ba6-a593-4465-9b38-16d95d656354)
 ![image](https://github.com/user-attachments/assets/d025cc2d-1cca-4125-8121-9e460a075a63)
 ![image](https://github.com/user-attachments/assets/44b879d5-3143-4493-970c-61604cc09af8)
 
 
-### Step 11: Populate Product Dimension Table (Using SSIS and Visual Studio):
+### Step 12: Populate Product Dimension Table (Using SSIS and Visual Studio):
 #### Set the connection manager, Create a data flow, create the workflow in which we choose the source and destination and map the columns, and finally run the SSIS package to transfer the data into the warehouse.
 
 ![image](https://github.com/user-attachments/assets/5aa9113d-0114-4c5a-85df-478397d4c73a)
@@ -92,18 +94,18 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 ![image](https://github.com/user-attachments/assets/ed163285-8fa4-452e-93a6-8fa7d15ef262)
 
 
-### Step 12: Check the populated customer Dimension table on the warehouse
+### Step 13: Check the populated customer Dimension table on the warehouse
 ![image](https://github.com/user-attachments/assets/079d6caf-cc01-43b9-8f38-37a5922082ea)
 
 
 
-### Step 13: Populate the Date Dimension table:
+### Step 14: Populate the Date Dimension table:
 #### Using an SQL query populated the time dimension table with all its columns
 ![image](https://github.com/user-attachments/assets/0390ede9-5403-4087-9bca-7f0c93c58592)
 
 
 
-### Step 14: Populating the fact table (from a CSV file using SSIS Tool in Visual Studio)
+### Step 15: Populating the fact table (from a CSV file using SSIS Tool in Visual Studio)
 ![image](https://github.com/user-attachments/assets/4ee7488d-3d59-4cf7-906b-cdb5b3a91983)
 ![image](https://github.com/user-attachments/assets/3e048396-2c2c-432a-b494-bd57a08bfeb3)
 ![image](https://github.com/user-attachments/assets/3c6b1680-8942-4051-af36-b44ec53a7794)
@@ -111,7 +113,7 @@ Aggregating and managing large volumes of customer data for analytical purposes.
 
 
 
-### Step 15: Check the populated data of the Fact table in the data warehouse:
+### Step 16: Check the populated data of the Fact table in the data warehouse:
 ![image](https://github.com/user-attachments/assets/bb913299-f107-40c6-95fa-f689d8e0c463)
 
 
