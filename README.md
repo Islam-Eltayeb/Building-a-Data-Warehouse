@@ -11,8 +11,7 @@
 
 <a id='intro'></a>
 ## Introduction
-In this project I built an SQL data warehouse and integrating data from different sources into the warehouse using SSIS data pipelines. 
-
+In this project, I designed a comprehensive data warehouse, establishing both fact and dimension tables. I utilized SQL for the creation of the warehouse and successfully integrated data from various sources, including an SQL database and CSV files. This integration was achieved through the SQL import/export tools as well as SSIS data pipelines, ensuring a seamless flow of information into the warehouse.
 
 <a id='source'></a>
 ### Data Source:
